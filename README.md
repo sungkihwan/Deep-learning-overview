@@ -1,12 +1,34 @@
-# deeplearning-overview
+## 딥러닝 개론
 
-### perceptron
+### Perceptron
 
-### gradient descent
+### DIY 퍼셉트론
 
-### backpropagation
+### AND gate와 OR gate 구현
 
-### tensorflow
+### NAND gate와 NOR gate 구현
+
+### 비선형적인 문제 : XOR 문제
+
+### 다층 퍼셉트론으로 XOR gate 구현
+
+### 다층 퍼셉트론(MLP) 모델로 2D 데이터 분류
+
+## 딥러닝 모델의 학습 방법
+
+### Gradient descent
+
+### Back propagation
+
+## TensorFlow
+
+### Tensor
+
+### 텐서 플로우 활용
+
+### Keras와 다층퍼셉트론 모델
+
+### 텐서플로우로 XOR 문제 해결하기
 
 ## 학습속도 문제와 최적화 알고리즘
 
@@ -39,6 +61,4 @@
 ### Drop out
 
 ### Batch Normalization
-
-### pytorch
 
