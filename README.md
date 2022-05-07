@@ -2,11 +2,7 @@
 
 ### Perceptron
 
-### DIY 퍼셉트론
-
-### AND gate와 OR gate 구현
-
-### NAND gate와 NOR gate 구현
+### AND gate, OR gate, NAND gate, NOR gate 구현
 
 ### 비선형적인 문제 : XOR 문제
 
