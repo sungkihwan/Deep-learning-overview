@@ -4,8 +4,6 @@
 
 ### AND gate, OR gate, NAND gate, NOR gate 구현
 
-### 비선형적인 문제 : XOR 문제
-
 ### 다층 퍼셉트론으로 XOR gate 구현
 
 ### 다층 퍼셉트론(MLP) 모델로 2D 데이터 분류
