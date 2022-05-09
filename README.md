@@ -56,3 +56,14 @@
 
 ### Batch Normalization
 
+## CNN
+
+## RNN
+
+## 이미지 처리
+
+## 자연어 처리
+
+## Deep Q Learning
+
+## A3C
