@@ -21,6 +21,7 @@
 ### 텐서 플로우 활용
 
 ### Keras와 다층퍼셉트론 모델
+- [keras 사용법](https://www.tensorflow.org/api_docs/python/tf/keras/layers/Dense)
 
 ### 텐서플로우로 XOR 문제 해결하기
 
