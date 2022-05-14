@@ -7,18 +7,18 @@
 > 진리표에 맞게 단층 퍼셉트론 구현
 
 ### 다층 퍼셉트론으로 XOR gate 구현
-> X1 -> NAND -> AND -> Y
+> X1 -> NAND -> AND -> Y     
 > X2 ->  OR  -> 
 
 ## 딥러닝 모델의 학습 방법
 
 ### Gradient descent
-> 최적의 가중치는 모든 경우의 수를 체크 하는 브루트 포스 방식이 불가능합니다.    
-> Gradient descent 알고리즘은 손실 함수(loss function)의 미분값인 gradient를 이용하여      
+> 최적의 가중치는 모든 경우의 수를 체크 하는 브루트 포스 방식이 불가능합니다.         
+> Gradient descent 알고리즘은 손실 함수(loss function)의 미분값인 gradient를 이용하여          
 > 모델에게 맞는 최적의 가중치(weight), 즉 손실 함수의 값을 최소화 하는 가중치를 구할 수 있는 알고리즘입니다.
 
 ### Back propagation
-> 손실 함수(loss function)의 gradient 값을 역전파해서 받은 후,     
+> 손실 함수(loss function)의 gradient 값을 역전파해서 받은 후,        
 > 그 값을 참고하여 손실 함수값을 최소화 하는 방향으로 가중치(weight)를 업데이트 합니다.
 
 ## TensorFlow
@@ -64,16 +64,25 @@ model.evaluate(x_test, y_test)
 ## 학습속도 문제와 최적화 알고리즘
 
 ### gradient descent vs SGD
+> GD는 전체 데이터 셋을 가지고 학습하여 안정적이지만 계산량과 학습 비용이 많다.
+> SGD는 무작위로 뽑은 데이터들에 대한 GD를 진행
 
 ### Momentum
+> SGD는 손실 함수의 최솟값에 도달하는 동안 Gradient가 진동하여 최적값에 도달하기까지의 시간이 오래걸린다.      
+> 이를 보완하기 위해 사용되는 모멘텀 기법은 관성의 개념을 이용해 최적값에 좀 더 빠르게 도달할 수 있도록 도와줍니다.
 
 ### Adagrad, RMSprop, Adam optimize
+> Adagrad(Adaptive Gradient)는 최적의 가중치를 찾아내기 위해 learning rate를 조절해 하강하는 방법 중 하나입니다.     
+> RMSprop는 학습이 진행될수록 가중치 업데이트 강도가 약해지는 Adagrad의 단점을 보완하고자 제안된 방법입니다.      
+> RMSprop는 과거의 gradient 값은 잊고 새로운 gradient 값을 크게 반영해서 가중치를 업데이트합니다.     
+> Adam은 RMSProp과 Momentum을 함께 사용함으로써, 진행 방향과 learning rate를 적절하게 유지하면서 학습할 수 있도록 고안되었습니다.
 
 ## 기울기 소실 문제와 방지 기법
 
 ### vanishing gradient descent
-
-### 활성화 함수 다르게 적용하기
+> 깊은 층의 모델에선 역전파시 전달되는 loss function의 gradient 값에 활성화 함수인 sigmoid 함수의 0에 가까운 기울기 값이    
+> 계속해서 곱해지면서 결국 가중치 업데이트가 잘 안되는 문제가 생기는데, 이것이 바로 기울기 소실 문제(Vanishing Gradient)입니다.    
+> relu와 tanh 활성화 함수를 사용하여 해결하는 방안이 있습니다.
 
 ## 초기 설정 문제와 방지 기법
 
