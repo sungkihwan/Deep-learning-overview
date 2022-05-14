@@ -49,15 +49,21 @@
 
 ## 과적합 문제와 방지 기법
 ![과적합](https://t1.daumcdn.net/cfile/tistory/216C294D572DE7E904)
-* 과적합(Overfitting)은 모델이 학습 데이터에만 너무 치중되어 학습 데이터에 대한 예측 성능은 좋으나   테스트 데이터에 대한 예측 성능이 떨어지는 경우를 말합니다.
 
-  ### Overfitting
+### Overfitting
+> 과적합(Overfitting)은 모델이 학습 데이터에만 너무 치중되어 학습 데이터에 대한 예측 성능은 좋으나 
+> 테스트 데이터에 대한 예측 성능이 떨어지는 경우를 말하는데, 과적합이 발생하는 이유는 아래와 같다.
+- 데이터의 퍼진 정도, 즉 분산(variance)이 높은 경우
+- 너무 많이 학습 데이터를 학습시킨 경우 (epochs가 매우 큰 경우)
+- 학습에 사용된 파라미터가 너무 많은 경우
+- 데이터에 비해 모델이 너무 복잡한 경우
+- 데이터에 노이즈 & 이상치(outlier)가 너무 많은 경우
 
-  ### Regularization
+### Regularization
 
-  ### Drop out
+### Drop out
 
-  ### Batch Normalization
+### Batch Normalization
 
 ## CNN
 
