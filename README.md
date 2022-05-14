@@ -50,6 +50,7 @@
 ## 과적합 문제와 방지 기법
 
 ### Overfitting
+https://www.google.com/url?sa=i&url=https%3A%2F%2Funtitledtblog.tistory.com%2F68&psig=AOvVaw0-xYMcQdSgoji07jCk03Nj&ust=1652581139821000&source=images&cd=vfe&ved=0CAwQjRxqFwoTCKiaoNH23fcCFQAAAAAdAAAAABAD
 
 ### Regularization
 
