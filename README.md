@@ -48,7 +48,7 @@
 ### He 초기화 방법
 
 ## 과적합 문제와 방지 기법
-![Alt text](https://www.google.com/url?sa=i&url=https%3A%2F%2Funtitledtblog.tistory.com%2F68&psig=AOvVaw0-xYMcQdSgoji07jCk03Nj&ust=1652581139821000&source=images&cd=vfe&ved=0CAwQjRxqFwoTCKiaoNH23fcCFQAAAAAdAAAAABAD)
+![과적합](https://t1.daumcdn.net/cfile/tistory/216C294D572DE7E904)
 * 과적합(Overfitting)은 모델이 학습 데이터에만 너무 치중되어 학습 데이터에 대한 예측 성능은 좋으나   테스트 데이터에 대한 예측 성능이 떨어지는 경우를 말합니다.
 
   ### Overfitting
